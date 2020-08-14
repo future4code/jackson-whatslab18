@@ -1,9 +1,14 @@
-import React from 'react';
+import React from 'react'
+import {EnviaMensagem} from './Components/EnviaMensagem/EnviaMensagem'
+
  
 function App() {
-  return (
-    
+  return  (
+    <div>
+      <EnviaMensagem/>
+    </div>
   );
 }
+        
 
 export default App;
